@@ -35,12 +35,8 @@ ul {
     height: 4.5em;
 }
 
-.navbar div {
-
-}
-
 .navbar h4 {
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
 }
@@ -58,6 +54,22 @@ ul {
     color: #67615f;
     padding-bottom: 50px;
 
+}
+
+.sponsors {
+    float: middle;
+    padding-left: 570px; 
+    background-color: rgb(195, 198, 204);
+}
+
+.footer {
+    background-color: #184cac;
+}
+
+.triangle {
+    align-items: center;
+    margin: auto;
+    margin-left: auto;
 }
 
 
@@ -153,26 +165,12 @@ ul {
 
 .button-body {
     float: middle;
-    background-color: #184cac;
+    background-color: #4a8eff;
     border-color: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     height: 4em;
     width: 20em;
-}
-
-.h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: aliceblue;
-}
-
-
-.triangle {
-    padding-top: 300px;
-    align-items: center;
-    height: 20px;
-    width: auto;
 }
 
 * {box-sizing: border-box;}
