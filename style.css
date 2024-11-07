@@ -56,6 +56,7 @@ ul {
     font-weight: 400;
     text-align: center;
     color: #67615f;
+    padding-bottom: 50px;
 
 }
 
@@ -66,63 +67,77 @@ ul {
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
     padding-left: 250px;
+    text-align: center;
+    align-items: baseline;
 }
     
 .div1 {
     grid-row: span 2 / span 2;
+    text-align: center;
 }
 
 .div2 {
     grid-row: span 2 / span 2;
     grid-column-start: 1;
     grid-row-start: 3;
+    text-align: center;
 }
 
 .div3 {
     grid-row: span 2 / span 2;
     grid-column-start: 2;
     grid-row-start: 1;
+    text-align: center;
 }
 
 .div4 {
     grid-row: span 2 / span 2;
     grid-column-start: 2;
     grid-row-start: 3;
+    text-align: center;
 }
 
 .div5 {
     grid-row: span 2 / span 2;
     grid-column-start: 3;
     grid-row-start: 1;
+    text-align: center;
 }
 
 .div6 {
     grid-row: span 2 / span 2;
     grid-column-start: 3;
     grid-row-start: 3;
+    text-align: center;
+
 }
 
 .div7 {
     grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 1;
+    text-align: left;
 }
 
 .div8 {
     grid-row: span 2 / span 2;
     grid-column-start: 4;
     grid-row-start: 3;
+    text-align: left;
 }
 
 .div9 {
     grid-row: span 2 / span 2;
     grid-column-start: 5;
     grid-row-start: 1;
+    text-align: left;
+
 }
 
 .div10 {
     grid-row: span 2 / span 2;
     grid-row-start: 3;
+    text-align: left;
 }
         
 
@@ -135,6 +150,23 @@ ul {
     height: 4em;
     width: 10em;
 }
+
+.button-body {
+    float: middle;
+    background-color: #184cac;
+    border-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 4em;
+    width: 20em;
+}
+
+.h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
 
 .triangle {
     padding-top: 300px;
@@ -150,7 +182,7 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
     padding-top: 100px;
-  max-width: 1000px;
+  max-width: 1800px;
   float: middle;
 }
 
