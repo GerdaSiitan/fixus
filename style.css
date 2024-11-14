@@ -7,18 +7,16 @@
 
 /* Body Styling */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  "Barlow Condensed", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    max-width: 1920px; /* Limits the entire layout to 1920px width */
 }
 
 /* Main Container */
 .container {
-    max-width: 1920px;
-    width: 100%;
+    width: 2500;
     padding: 0 20px; /* Optional padding on sides */
     margin: 0 auto;
 }
@@ -29,19 +27,31 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    max-width: 1920px;
-    width: 100%;
+    width: 2500px;
+}
+
+.slideshowspons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: #838383;
 }
 
 .navbar li {
     list-style: none;
-    padding: 0 15px;
+}
+
+.autokaup {
+    text-align: center;
+    margin-top: -130px;
 }
 
 .navbar a {
     color: #0c0c0c;
     font-weight: bold;
     text-decoration: none;
+    list-style: none;
+    float: left;
 }
 
 .language-picker {
@@ -59,10 +69,10 @@ body {
 
 /* Slideshow Container */
 .slideshow-container {
-    max-width: 1200px;
     width: 100%;
     position: relative;
     margin-top: 20px;
+    max-width: 2500px;
 }
 
 /* Slides */
@@ -77,10 +87,11 @@ body {
 
 /* Title Section */
 .title {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  "Barlow Condensed", sans-serif;
     font-weight: bold;
     text-align: center;
     margin: 20px 0;
+    
 }
 
 /* 2x5 Grid Layout */
@@ -89,7 +100,7 @@ body {
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
     grid-template-rows: repeat(2, auto);   /* 2 rows */
     gap: 10px;
-    max-width: 1200px;
+    max-width: 25000px;
     margin: 20px auto;
     text-align: center;
 }
@@ -98,13 +109,45 @@ body {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    background-color: #f9f9f9;
 }
 
 .parent img {
     width: auto;
     height: 100px;
     margin-bottom: 10px;
+}
+
+.autoteenindus {
+    text-align: center;
+    background-color: #184cac;
+    width: 1920px;
+    height: 400px;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.title1 {
+    color: white;
+    padding-bottom: 30px;
+    font-family:  "Barlow Condensed", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.paragraph {
+    color: #838383;
+    font-family:  "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.paragraph1 {
+    color: #b8b8b8;
+    font-family:  "Barlow Condensed", sans-serif;
+}
+
+.car {
+    margin-top: -190px;
 }
 
 /* Call-to-Action Button */
@@ -116,6 +159,70 @@ body {
     padding: 15px 30px;
     cursor: pointer;
     margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+}
+
+.button-body2 {
+    background-color:  #184cac;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 80px;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-body3 {
+    background-color:  #ffdb0c;
+    color: #2c2c2c;
+    border: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 80px;
+    font-family: "Barlow Condensed", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 1700PX;
+    position: sticky;
+    top: 90%;
+}
+
+.ratas {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title2 {
+    color: rgb(24, 24, 24);
+    padding-bottom: 30px;
+    font-family:  "Barlow Condensed", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.paragraph2 {
+    color: #202020;
+    font-family:  "Barlow Condensed", sans-serif;
+
+}
+
+
+.button-body1 {
+    background-color: #00d00a;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .sponsers {
