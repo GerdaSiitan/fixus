@@ -35,7 +35,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    width: 2500px;
+    width: 1920px;
     position: sticky;
     background-color: #fff;
 }
@@ -89,7 +89,7 @@ body {
     color: #fff;
     border: none;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 20px 30px;
     cursor: pointer;
 }
 
