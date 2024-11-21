@@ -12,7 +12,3 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";  
     setTimeout(showSlides, 7000); // Change every 3 seconds
 }
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
