@@ -7,7 +7,7 @@
 
 /* Body Styling */
 body {
-    font-family:  "Barlow Condensed", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,12 +21,6 @@ body {
     margin: 0 auto;
 }
   
-  .gallery-cell {
-    width: 66%;
-    height: 200px;
-    margin-right: 10px;
-    counter-increment: gallery-cell;
-  }
   
 
 /* Navigation Bar */
@@ -47,7 +41,7 @@ body {
     background-color: #f0e5e5;
     padding-top: 5px;
     padding-bottom: 10px;
-    width: 1920px;
+    width: 2600px;
 }
 
 .slideshow-spons-rat {
@@ -56,7 +50,8 @@ body {
     grid-template-rows: repeat(1, 1fr);
     padding-top: 5px;
     padding-bottom: 10px;
-    width: 1920px;
+    width: 100%;
+    max-width: 2600px;
     margin-top: 50px;
 }
 
@@ -98,13 +93,13 @@ body {
     width: 100%;
     position: relative;
     margin-top: 20px;
-    max-width: 2500px;
+    max-width: 2600px;
 }
 
 /* Slides */
-.mySlides {
-    display: none;
+.slide {
     width: 100%;
+    max-width: 2600px;
 }
 
 .active {
@@ -126,10 +121,12 @@ body {
     grid-template-columns: repeat(5, 1fr); /* 5 columns */
     grid-template-rows: repeat(2, auto);   /* 2 rows */
     gap: 10px;
-    max-width: 25000px;
+    width: 100%;
+    max-width: 2600px;
     margin: 20px auto;
     text-align: center;
 }
+
 
 .parent div {
     text-align: center;
@@ -146,9 +143,11 @@ body {
 .autoteenindus {
     text-align: center;
     background-color: #184cac;
-    width: 1920px;
-    height: 400px;
+    width: 100%;
+    max-width: 2600px;
+    height: 500px;
     padding-top: 20px;
+    padding-top: 100px;
 }
 
 .footer1 {
@@ -158,14 +157,20 @@ body {
     background-color: #f0e5e5;
     padding-top: 50px;
     padding-bottom: 50px;
-    width: 1920px;
+    padding-left: 100px;
+    width: 100%;
+    margin-inline: auto;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 40px;
 }
 
 .title1 {
     color: white;
     padding-bottom: 30px;
     font-family:  "Barlow Condensed", sans-serif;
-    font-weight: bold;
+    font-weight: 900;
     font-size: x-large;
 }
 
@@ -182,7 +187,8 @@ body {
 }
 
 .car {
-    margin-top: -190px;
+    margin-top: -170px;
+    align-items: center;
 }
 
 /* Call-to-Action Button */
@@ -258,6 +264,9 @@ body {
 }
 
 
+
+
+
 .button-body1 {
     background-color: #00d00a;
     color: #fff;
@@ -281,5 +290,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    max-width: 1920px;
+    max-width: 2600px;
 }
+
