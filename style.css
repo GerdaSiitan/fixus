@@ -16,63 +16,43 @@ body {
 
 /* Main Container */
 .container {
-    width: 2500;
-    padding: 0 20px; /* Optional padding on sides */
+    width: 100%;
+    padding: 0 20px;
     margin: 0 auto;
 }
-  
-  
 
 /* Navigation Bar */
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
-    width: 1920px;
-    position: sticky;
-    background-color: #fff;
-}
-
-.slideshow-spons {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    background-color: #f0e5e5;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    width: 2600px;
-}
-
-.slideshow-spons-rat {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding: 15px 0px;  /* Increased padding for more space */
     width: 100%;
-    max-width: 2600px;
-    margin-top: 50px;
+    max-width: 1300px;  /* Limit the width for larger screens */
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    margin: 0 auto;  /* Center the navbar */
 }
 
 .navbar li {
     list-style: none;
-    position: sticky;
-}
-
-.autokaup {
-    text-align: center;
-    margin-top: -130px;
-    margin-bottom: 90px;
 }
 
 .navbar a {
     color: #0c0c0c;
     font-weight: bold;
     text-decoration: none;
-    list-style: none;
+    padding: 10px 20px;  /* Add padding to navbar links */
+    margin: 0 10px;  /* Add margin between navbar items */
     float: left;
-    position: sticky;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #184cac;  /* Change color on hover for better interaction */
+    text-decoration: underline;
 }
 
 .language-picker {
@@ -84,7 +64,8 @@ body {
     color: #fff;
     border: none;
     font-weight: bold;
-    padding: 20px 30px;
+    padding: 20px 70px;
+    margin: 20px 50px;
     cursor: pointer;
 }
 
@@ -93,13 +74,11 @@ body {
     width: 100%;
     position: relative;
     margin-top: 20px;
-    max-width: 2600px;
 }
 
 /* Slides */
 .slide {
     width: 100%;
-    max-width: 2600px;
 }
 
 .active {
@@ -108,25 +87,22 @@ body {
 
 /* Title Section */
 .title {
-    font-family:  "Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: bold;
     text-align: center;
     margin: 20px 0;
-    
 }
 
 /* 2x5 Grid Layout */
 .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
-    grid-template-rows: repeat(2, auto);   /* 2 rows */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 10px;
     width: 100%;
-    max-width: 2600px;
     margin: 20px auto;
     text-align: center;
 }
-
 
 .parent div {
     text-align: center;
@@ -144,12 +120,11 @@ body {
     text-align: center;
     background-color: #184cac;
     width: 100%;
-    max-width: 2600px;
     height: 500px;
-    padding-top: 20px;
     padding-top: 100px;
 }
 
+/* Footer Section */
 .footer1 {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -158,32 +133,30 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
+    gap: 40px;
     width: 100%;
     margin-inline: auto;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 40px;
+    max-width: 2600px;
 }
 
 .title1 {
     color: white;
     padding-bottom: 30px;
-    font-family:  "Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 900;
     font-size: x-large;
 }
 
 .paragraph {
     color: #838383;
-    font-family:  "Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
     margin-bottom: 50px;
 }
 
 .paragraph1 {
     color: #b8b8b8;
-    font-family:  "Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 .car {
@@ -205,41 +178,30 @@ body {
     margin-top: 60px;
 }
 
-.form {
-   align-items: start;
-}
-
 .button-body2 {
-    background-color:  #184cac;
+    background-color: #184cac;
     color: #fff;
     border: none;
     font-weight: bold;
     padding: 15px 30px;
     cursor: pointer;
     margin-top: 80px;
-    font-family: "Barlow Condensed", sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .button-body3 {
-    background-color:  #ffdb0c;
+    background-color: #ffdb0c;
     color: #2c2c2c;
     border: none;
     font-weight: bold;
     padding: 15px 30px;
     cursor: pointer;
     margin-top: 80px;
-    font-family: "Barlow Condensed", sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 1700PX;
+    margin-left: 1700px;
     position: sticky;
     top: 90%;
 }
 
 .ratas {
-
     text-align: center;
     margin-top: 90px;
 }
@@ -247,25 +209,20 @@ body {
 .title2 {
     color: rgb(24, 24, 24);
     padding-bottom: 30px;
-    font-family:  "Barlow Condensed", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-weight: bold;
     font-size: x-large;
 }
 
 .paragraph2 {
     color: #202020;
-    font-family:  "Barlow Condensed", sans-serif;
-
+    font-family: "Barlow Condensed", sans-serif;
 }
 
 .form {
-    height:200px;
-    font-size:14pt;
+    height: 200px;
+    font-size: 14pt;
 }
-
-
-
-
 
 .button-body1 {
     background-color: #00d00a;
@@ -290,6 +247,167 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    max-width: 2600px;
 }
 
+/* Responsive Adjustments */
+
+/* For Mobile (Less than 480px) */
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 10px;
+    }
+
+    .parent {
+        grid-template-columns: 1fr; /* Stack grid items in a single column */
+    }
+
+    .footer1 {
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+        gap: 15px;
+    }
+
+    .button-body, .button-body2, .button-body3 {
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    .title2, .title1 {
+        font-size: 1rem;
+    }
+
+    .paragraph, .paragraph1, .paragraph2 {
+        font-size: 0.8rem;
+    }
+
+    .autokaup {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .autoteenindus {
+        height: 400px;
+        padding-top: 50px;
+    }
+}
+
+/* For Tablets (481px to 768px) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .parent {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+
+    .footer1 {
+        grid-template-columns: 1fr 1fr; /* 2 columns for footer */
+        padding-left: 20px;
+        gap: 20px;
+    }
+
+    .button-body, .button-body2, .button-body3 {
+        width: 100%;
+        padding: 10px 20px;
+        margin-top: 20px;
+    }
+
+    .title2, .title1 {
+        font-size: 1.2rem;
+    }
+
+    .paragraph, .paragraph1, .paragraph2 {
+        font-size: 0.9rem;
+    }
+
+    .slideshow-spons, .slideshow-spons-rat {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for sponsors */
+    }
+}
+
+/* For Laptops (769px to 1024px) */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .parent {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    }
+
+    .footer1 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .button-body, .button-body2, .button-body3 {
+        width: 100%;
+        padding: 15px 30px;
+        margin-top: 20px;
+    }
+
+    .title2, .title1 {
+        font-size: 1.3rem;
+    }
+
+    .paragraph, .paragraph1, .paragraph2 {
+        font-size: 1rem;
+    }
+
+    .autokaup {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+/* For Desktops (Greater than 1024px) */
+@media (min-width: 1025px) {
+    .container {
+        max-width: 1200px; /* Desktop max width */
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .parent {
+        grid-template-columns: repeat(5, 1fr); /* 5 columns for large screens */
+    }
+
+    .footer1 {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 40px;
+        padding-left: 100px;
+    }
+
+    .button-body, .button-body2, .button-body3 {
+        width: auto;
+        padding: 15px 30px;
+    }
+
+    .title2, .title1 {
+        font-size: 1.5rem;
+    }
+
+    .paragraph, .paragraph1, .paragraph2 {
+        font-size: 1.1rem;
+    }
+}
